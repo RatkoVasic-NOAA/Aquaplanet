@@ -4,7 +4,7 @@
  integer :: ivar
  integer, dimension(2) :: start, count
  character *50, dimension(7) :: cvar
- character *50 :: cname
+ character *100 :: cname
 
    if (IARGC().ne.1) then
      print*,'Use ./profile.x filename '
@@ -29,7 +29,8 @@
  integer :: ncId, VarId, status
  integer, dimension(2), intent(in) :: start, count
  real, allocatable :: dummy(:,:)
- character *50 :: cname,cvar
+ character *50 :: cvar
+ character *100 :: cname
  logical :: debug=.false.
 
    allocate (dummy(im,jm))

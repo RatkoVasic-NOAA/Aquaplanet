@@ -1,0 +1,14 @@
+#!/bin/bash
+
+. /apps/lmod/lmod/init/sh
+module purge
+module use /contrib/spack-stack/spack-stack-1.9.2/envs/ue-oneapi-2024.2.1/install/modulefiles/Core
+module load stack-oneapi/2024.2.1
+module load stack-intel-oneapi-mpi/2021.13
+module load netcdf-fortran/4.6.1
+
+for i in `cat list.txt`
+do
+  ./profile.x $i
+  echo
+done
