@@ -40,8 +40,6 @@
  integer :: ncId, VarId, status
  integer, dimension(3), intent(in) :: start, count
  real, allocatable :: dummy(:,:,:)
- real*4 :: dumr4
- real*8 :: dumr8
  character *8 :: cvar
  character *18 :: cname
  logical :: debug=.true.
