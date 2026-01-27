@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -e out
+#SBATCH -o out
+#SBATCH --account=epic
+#SBATCH --qos=debug
+#SBATCH --nodes=1
+#SBATCH --partition=u1-compute
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=10
+#SBATCH --job-name="control"
+
+echo "Started: $(date)"
+./ice-monthly.x
+echo "Ended: $(date)"
