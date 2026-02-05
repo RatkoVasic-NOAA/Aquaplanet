@@ -1,0 +1,55 @@
+*gs
+*light yellow to dark red
+'set rgb 21 255 250 170'
+'set rgb 22 255 232 100'
+'set rgb 23 255 192   0'
+'set rgb 24 255 160   0'
+'set rgb 25 255  96   0'
+'set rgb 26 255  50   0'
+'set rgb 27 225  20   0'
+'set rgb 28 192   0   0'
+'set rgb 29 148   0   0'
+*
+*light green to dark green
+'set rgb 31 232 255 200'
+'set rgb 32 192 255 160'
+'set rgb 33  96 255  96'
+'set rgb 34  48 224  64'
+'set rgb 35  16 192  32'
+'set rgb 36   0 160   0'
+'set rgb 37   0 128   0'
+'set rgb 38   0  96   0'
+'set rgb 39   0  64   0'
+*
+*light blue to dark blue
+'set rgb 41 200 255 255'
+'set rgb 42 160 215 255'
+'set rgb 43  96 198 255'
+'set rgb 44  64 180 255'
+'set rgb 45  32 128 232'
+'set rgb 46  16  96 210'
+'set rgb 47   0  64 180'
+'set rgb 48   0  20 160'
+'set rgb 49   0   0 128' 
+*
+*light purple to dark purple
+'set rgb 51 220 220 255'
+'set rgb 52 192 192 255'
+'set rgb 53 160 140 255'
+'set rgb 54 128 112 220'
+'set rgb 55 112  96 220'   
+'set rgb 56  72  60 200'   
+'set rgb 57  48  24 180'
+'set rgb 58  50   0 160'
+'set rgb 59  20   0 128' 
+*
+*light pink to dark rose  
+'set rgb 61 255 230 230'
+'set rgb 62 255 200 200'
+'set rgb 63 248 160 160'
+'set rgb 64 230 140 140'
+'set rgb 65 230 112 112'
+'set rgb 66 230  80  80'   
+'set rgb 67 200  60  60'   
+'set rgb 68 180  40  40'
+'set rgb 69 164  32  32'
